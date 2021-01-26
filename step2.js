@@ -16,10 +16,10 @@ const webCat = async (url) => {
 		process.exit(1);
 	}
 };
-if (file.slice(0, 4) === 'http') {
-	webCat(file);
-} else {
-	cat(file);
-}
+// if (file.slice(0, 4) === 'http') {
+// 	webCat(file);
+// } else {
+// 	cat(file);
+// }
 
 module.exports = { webCat };
